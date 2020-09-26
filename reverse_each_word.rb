@@ -9,6 +9,7 @@ def reverse_each_word(string)
   string_array.each do |word|
     new_array << word.reverse
   end
+  new_array.join("")
 end
 
 # Then utilize the same method using .collect to see the difference.
