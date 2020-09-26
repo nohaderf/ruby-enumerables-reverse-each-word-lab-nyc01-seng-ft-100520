@@ -12,7 +12,7 @@ def reverse_each_word(string)
   new_array.join(" ")
 end
 
-
+# Then utilize the same method using .collect to see the difference.
 def reverse_each_word(string)
   string_array = string.split(" ")
   new_array = [ ]
