@@ -1,5 +1,6 @@
 require 'pry'
 
+# Write a method called reverse_each_word that takes in a string 
 
 def reverse_each_word(string)
   string_array = string.split(" ")
